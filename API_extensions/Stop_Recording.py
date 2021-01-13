@@ -1,3 +1,5 @@
+"""Stops recording on the current video"""
+
 import requests
 
 stop_recording_url= 'http://localhost:8080/recording/stop'
