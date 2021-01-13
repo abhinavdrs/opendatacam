@@ -1,4 +1,7 @@
-This extended\_readme details how to use the python files in API\_extensions to start opendatacam's inference on recorded videos without spending additional time in drawing counters. The APIs to can also retrieve the tracker data after the recording is done and convert it to the desired .csv format.
+This repository is forked from https://github.com/opendatacam/opendatacam and was adapted to suit a specific use case explained below. 
+For installing and running the tool, please refer to the original_README.md in this repository. 
+
+This README details how to use the python files in API\_extensions to start opendatacam's inference on recorded videos without spending additional time in drawing counters. The APIs to can also retrieve the tracker data after the recording is done and convert it to the desired .csv format.
 
 Desired use case: The users want to run opendatacam on pre-recorded videos. The user changes file name in config.json to the desired video_file name and then restarts the opendatacam container. After the opendatacam browser loads the video, the user draws counters in the desired areas of the video frame and then presses the record button to start recording which triggers the object counting and detection process. 
 Problem: A significant amount of video has passed before the recording can be started because drawing counters takes time.
