@@ -13,17 +13,17 @@ The steps to be followed along with accompanying scripts are detailed below.
 First run: Draw counters and store them in .json path. 
 1) Start the desired video by editing "file:" field in config.json.
 2) Draw counters in the opendatacam browser tool.
-3) Open 'Get-Counters_Area.py':
-	3.1 edit counter\_dir and provide directory to store counters.
-		counter_dir = '/path/to/your/directory/counter_file_name.json'
-	3.2 Run 'Get-Counters_Area.py'
+3) Open 'Get-Counters_Area.py':<br/>
+	3.1 edit counter\_dir and provide directory to store counters.<br/>
+		counter_dir = '/path/to/your/directory/counter_file_name.json'<br/>
+	3.2 Run 'Get-Counters_Area.py'<br/>
 4) Verify that .json file is present in the location you provided in counter\_dir directory.
 
 Second Run: POST counter you stored previously, start collecting tracking data using these counters.
 
-1) Open 'Post\_Counter\_Areas.py'
+1) Open 'Post\_Counter\_Areas.py'<br/>
 	1.1 edit counter-dir as follows.
-		counter_dir = 'same as in Get-Counters_Area.py'
+		counter_dir = 'same as in Get-Counters_Area.py'<br/>
 	1.2 close 'Post\_Counter\_Areas.py'
 
 2) Restart the opendatacam container.
