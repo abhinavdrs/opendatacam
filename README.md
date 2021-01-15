@@ -1,4 +1,4 @@
-This repository is forked from https://github.com/opendatacam/opendatacam and was adapted to suit a specific use case explained below.
+This repository is forked from https://github.com/opendatacam/opendatacam and was adapted (by abhinavdrs) to suit a specific use case explained below.
 For installing and running the tool, please refer to the original_README.md in this repository. 
 
 This README details how to use the python files in API\_extensions to start opendatacam's inference on recorded videos without spending additional time in drawing counters. The APIs to can also retrieve the tracker data after the recording is done and convert it to the desired .csv format. The API\_extensions are not present in the original repository and are developed only for a special use case.
